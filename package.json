@@ -1,0 +1,25 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Full stack application to give user surveys and compare the results to find closest friend match.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdunams/FriendFinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bdunams/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/bdunams/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "path": "^0.12.7"
+  }
+}
