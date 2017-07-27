@@ -5,8 +5,10 @@
   <title>Friend Finder</title>
   <!-- Latest compiled and minified CSS & JS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/styles.css">
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  
 
 </head>
 <body>
@@ -39,7 +41,6 @@
                 <h3><strong>Question 1</strong></h3>
                 <h4>You openly express yourself to others.</h4>
                 <select class="form-control" id="q1" pattern='[1-5]' required>
-                  <option value="0" hidden>Select an Option</option>
                   <option value="1">1 (Strongly Disagree)</option>
                   <option value="2">2 (Disagree)</option>
                   <option value="3">3 (Neutral)</option>
@@ -211,9 +212,10 @@
         ]
       };
 
+      // Send user survey to the server to find and return a match
       $.post("/api/friends", newSurvey)
       .done(function(match) {
-        console.log(match);
+
         $('#match-name').text(match.name);
         $('#match-photo').attr('src', match.photo);
         
