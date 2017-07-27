@@ -22,6 +22,7 @@
         
 <!----- Survey Questions Form ----->
             <form method="POST" role="form">
+              <h2><strong>About You</strong></h2>
 
               <div class="form-group">
                 <label for="name">Name</label>
@@ -29,27 +30,160 @@
               </div>
 
               <div class="form-group">
-                <label for="picLink">Link to Photo</label>
-                <input type="text" class="form-control" id="picLink" required>
+                <label for="photo">Link to Photo</label>
+                <input type="text" class="form-control" id="photo" required>
               </div>
-              
               <hr>
 
               <div class="form-group">
-                <label for="age">Age</label>
-                <input type="text" class="form-control" id="age">
+                <h3><strong>Question 1</strong></h3>
+                <h4>You openly express yourself to others.</h4>
+                <select class="form-control" id="q1" pattern='[1-5]' required>
+                  <option value="0" hidden>Select an Option</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2 (Disagree)</option>
+                  <option value="3">3 (Neutral)</option>
+                  <option value="4">4 (Agree)</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
               </div>
-
+              
               <div class="form-group">
-                <label for="force-points">Force Points</label>
-                <input type="text" class="form-control" id="force-points">
+                <h3><strong>Question 2</strong></h3>
+                <h4>Your someone people can easily rely on, trustworthy.</h4>
+                <select class="form-control" id="q2" required>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2 (Disagree)</option>
+                  <option value="3">3 (Neutral)</option>
+                  <option value="4">4 (Agree)</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <h3><strong>Question 3</strong></h3>
+                <h4>You enjoy being in nature and camping.</h4>
+                <select class="form-control" id="q3" required>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2 (Disagree)</option>
+                  <option value="3">3 (Neutral)</option>
+                  <option value="4">4 (Agree)</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <h3><strong>Question 4</strong></h3>
+                <h4>You're not too serious and like to have fun.</h4>
+                <select class="form-control" id="q4" required>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2 (Disagree)</option>
+                  <option value="3">3 (Neutral)</option>
+                  <option value="4">4 (Agree)</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <h3><strong>Question 5</strong></h3>
+                <h4>You're like small groups opposed to big groups.</h4>
+                <select class="form-control" id="q5" required>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2 (Disagree)</option>
+                  <option value="3">3 (Neutral)</option>
+                  <option value="4">4 (Agree)</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <h3><strong>Question 6</strong></h3>
+                <h4>You're oozing with confidence.</h4>
+                <select class="form-control" id="q6" required>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2 (Disagree)</option>
+                  <option value="3">3 (Neutral)</option>
+                  <option value="4">4 (Agree)</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <h3><strong>Question 7</strong></h3>
+                <h4>People see you as very intelligent.</h4>
+                <select class="form-control" id="q7" required>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2 (Disagree)</option>
+                  <option value="3">3 (Neutral)</option>
+                  <option value="4">4 (Agree)</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <h3><strong>Question 8</strong></h3>
+                <h4>Often, people see you as a leader.</h4>
+                <select class="form-control" id="q8" required>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2 (Disagree)</option>
+                  <option value="3">3 (Neutral)</option>
+                  <option value="4">4 (Agree)</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <h3><strong>Question 9</strong></h3>
+                <h4>You're really into sports.</h4>
+                <select class="form-control" id="q9" required>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2 (Disagree)</option>
+                  <option value="3">3 (Neutral)</option>
+                  <option value="4">4 (Agree)</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <h3><strong>Question 10</strong></h3>
+                <h4>You like to figure things out and solve problems.</h4>
+                <select class="form-control" id="q10" required>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2 (Disagree)</option>
+                  <option value="3">3 (Neutral)</option>
+                  <option value="4">4 (Agree)</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+              </div>
+              
+              <hr>
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-md" id="add-btn"><span class="glyphicon glyphicon-fire"></span>Submit</button>
               </div>
 
             </form>
             <br>
-            <div class="text-right">
-              <button type="submit" class="btn btn-primary btn-md" id="add-btn"><span class="glyphicon glyphicon-fire"></span>Submit</button>
+            
+          <div id="match-modal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">×</button>
+                  <h2 class="modal-title"><strong>Best Match</strong></h2>
+                </div>
+                <div class="modal-body">
+                  <h2 id="match-name"></h2>
+                  <img id="match-photo" src="" alt="">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+
             </div>
+          </div>
           
 
       </div>
@@ -60,19 +194,30 @@
 
     $("#add-btn").on("click", function(event) {
       event.preventDefault();
-      var newsurvey = {
+      var newSurvey = {
         name: $("#name").val().trim(),
-        photo: $("#picLink").val().trim(),
+        photo: $("#photo").val().trim(),
         scores: [
           $("#q1").val().trim(),
           $("#q2").val().trim(),
+          $("#q3").val().trim(),
+          $("#q4").val().trim(),
+          $("#q5").val().trim(),
+          $("#q6").val().trim(),
+          $("#q7").val().trim(),
+          $("#q8").val().trim(),
+          $("#q9").val().trim(),
+          $("#q10").val().trim()
         ]
       };
 
-      $.post("/api/new", newCharacter)
-      .done(function(data) {
-        console.log(data);
-        alert("Adding character...");
+      $.post("/api/friends", newSurvey)
+      .done(function(match) {
+        console.log(match);
+        $('#match-name').text(match.name);
+        $('#match-photo').attr('src', match.photo);
+        
+        $('#match-modal').modal('toggle');
       });
     });
   </script>

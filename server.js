@@ -9,7 +9,7 @@ const htmlRoutes = require('./app/routing/htmlRoutes');
 
 // Sets up the Express App
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.json());

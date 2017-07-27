@@ -1,7 +1,7 @@
 module.exports = [
   {
-    "name": "Brian Dorsey",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name": "Diane Dorsey",
+    "photo": "https://unsplash.com/collections/1238/people?photo=KrHHsrET_fQ",
     "scores": [
       "5",
       "1",
@@ -17,7 +17,7 @@ module.exports = [
   },
   {
     "name": "Jack Bitonio",
-    "photo": "https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-9/12741971_10205764267089153_4212986785721953092_n.jpg?oh=4e18265f7d380167223a97fbd7eba278&oe=57B78445",
+    "photo": "https://unsplash.com/collections/1238/people?photo=U22pJ6BclUQ",
     "scores": [
       "4",
       "4",
@@ -33,7 +33,7 @@ module.exports = [
   },
   {
     "name": "Ivan Furman",
-    "photo": "http:image",
+    "photo": "https://unsplash.com/collections/1238/people?photo=r8m5YoqQqwM",
     "scores": [
       "2",
       "3",
@@ -49,7 +49,7 @@ module.exports = [
   },
   {
     "name": "Antonio Wombardy",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo": "https://unsplash.com/collections/1238/people?photo=nz6PdZRsIdM",
     "scores": [
       "2",
       "1",
@@ -60,6 +60,22 @@ module.exports = [
       "2",
       "3",
       "4",
+      "3"
+    ]
+  },
+  {
+    "name": "Vanessa Osmund",
+    "photo": "https://unsplash.com/collections/1238/people?photo=-9kXwpU1Pw4",
+    "scores": [
+      "1",
+      "5",
+      "2",
+      "2",
+      "5",
+      "1",
+      "2",
+      "3",
+      "1",
       "3"
     ]
   }
